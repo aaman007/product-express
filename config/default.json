@@ -1,0 +1,12 @@
+{
+    "port": 5000,
+    "dbUri": "mongodb://localhost:27017/product-express",
+    "baseUrl": "http://localhost",
+    "saltWorkFactor": 10,
+    "accessTokenTTL": "30m",
+    "accessTokenPublicKey": "pubKey",
+    "accessTokenPrivateKey": "privateKey",
+    "refreshTokenTTL": "1y",
+    "refreshTokenPublicKey": "pubKey",
+    "refreshTokenPrivateKey": "privateKey"
+}
